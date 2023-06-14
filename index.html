@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <br><br>
+    <img src="assens/imeg/title.png" alt="" />
+    <br><br>
+    <form>
+      <div class="boxs">
+        <input type="text" id="tasksBox1" />
+        <button type="button" onclick="saveTasks1()">save</button>
+        <input type="text" id="tasksBox2" />
+        <button type="button" onclick="saveTasks2()">save</button>
+        <input type="text" id="tasksBox3" />
+        <button type="button" onclick="saveTasks3()">save</button>
+        <input type="text" id="tasksBox4" />
+        <button type="button" onclick="saveTasks4()">save</button>
+        <input type="text" id="tasksBox5" />
+        <button type="button" onclick="saveTasks5()">save</button>
+      </div>
+
+      <br /><br />
+
+      <div class="box" >
+        <br /><br />
+        <button class="clear" type="button" onclick="clearAll1()">x</button>
+        
+        <p id="ulTasks1"></p>
+       
+            <input class="time" type="datetime-local" id="date" min ="2018-08-01T00:00" required>
+
+            <br /><br />
+        <!-- <div class="time" id="current_date_time_block1"></div> -->
+      </div>
+
+      <div class="box" >
+        <br /><br />
+        <button class="clear" type="button" onclick="clearAll2()">x</button>
+      
+        <p id="ulTasks2"></p>
+       
+          <input class="time" type="datetime-local" id="date" min ="2018-08-01T00:00" required>
+        <!-- <div class="time" id="current_date_time_block2"></div> -->
+        <br />
+      </div>
+
+      <div class="box">
+        <br /><br />
+        <button class="clear" type="button" onclick="clearAll3()">x</button>
+      
+        <p id="ulTasks3"></p>
+        
+          <input class="time" type="datetime-local" id="date" min ="2018-08-01T00:00" required>
+        <!-- <div class="time" id="current_date_time_block3"></div> -->
+        <br />
+      </div>
+
+      <div class="box">
+        <br /><br />
+        <button class="clear" type="button" onclick="clearAll4()">x</button>
+        
+        <p id="ulTasks4"></p>
+       
+          <input class="time" type="datetime-local" id="date" min ="2018-08-01T00:00" required>
+        <!-- <div class="time" id="current_date_time_block4"></div> -->
+        <br />
+      </div>
+
+      <div class="box">
+        <br /><br />
+        <button class="clear" type="button" onclick="clearAll5()">x</button>
+      
+        <p id="ulTasks5"></p>
+      
+          <input class="time" type="datetime-local" id="date" min ="2018-08-01T00:00" required>
+        <!-- <div class="time" id="current_date_time_block5"></div> -->
+       
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

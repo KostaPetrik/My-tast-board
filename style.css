@@ -1,0 +1,59 @@
+body {
+  background-image: url(assens/imeg/tile.jpg);
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.boxs {
+  background-image: url(assens/imeg/formbg.jpg);
+  max-width: 800px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 0px;
+  margin: auto;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: none;
+  background: transparent;
+  /* border-bottom: 1px solid ; */
+}
+input.time{
+  width: 150px;
+  height: 10%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: none;
+  background: transparent;
+}
+div.box {
+  /* box-sizing: border-box; */
+  height: 260px;
+  display: flex;
+  display: inline-block;
+  width: 200px;
+  margin: auto 40px 15px;
+  display: inline-block;
+  background-image: url(assens/imeg/notebg.png);
+}
+p {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+  column-count: 1;
+  column-gap: 8px;
+  z-index: auto;
+ 
+}
+button.clear {
+  color: red;
+  margin-left: 150px;
+}
+div.time {
+  margin-left: 20%;
+}
